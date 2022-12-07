@@ -9,9 +9,18 @@ while removing the old ones (soft linking doesn't work, I've tried)
 
 Requirements for this to work:
 - a mod loader for Minecraft
-- a Linux system
+- a Linux system with the Bash shell
+
+NOTE: the mods have to be arranged in a way that there's one directory for the mods which only contains sub-directories for the categories. Those sub-directories should have the mods in them and nothing else.
+
+**INSTALLATION**
 
 If you use a launcher which allows for multiple ```.minecraft``` directories (e.g. MultiMC), you probably want to have this separately for each of them.
+Download the script for your launcher of choise (Prism Launcher is recommended) here: https://github.com/Jorma17/MCmodmanager/releases
+Then move the shell script somewhere like your ```Documents``` directory:
+```cd ~/Downloads```
+```mv ./[shell script name].sh ../Documents```
+```chmod +x ../Documents/[shell script name].sh```
 
 This project is a piece of free software licensed under the GPLv3 license. You can modify this and distribute your modified versions as long as you
 also make the modified source code publicly available.
