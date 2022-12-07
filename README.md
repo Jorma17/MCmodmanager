@@ -17,6 +17,7 @@ NOTE: the mods have to be arranged in a way that there's one directory for the m
 
 If you use a launcher which allows for multiple ```.minecraft``` directories (e.g. MultiMC), you probably want to have this separately for each of them.
 Download the script for your launcher of choise (Prism Launcher is recommended) here: https://github.com/Jorma17/MCmodmanager/releases
+
 Then move the shell script somewhere like your ```Documents``` directory:
 ```cd ~/Downloads```
 ```mv ./[shell script name].sh ../Documents```
