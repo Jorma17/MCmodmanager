@@ -26,3 +26,5 @@ Then move the shell script somewhere like your ```Documents``` directory:
 
 This project is a piece of free software licensed under the GPLv3 license. You can modify this and distribute your modified versions as long as you
 also make the modified source code publicly available.
+
+If you have any questions/suggestions, feel free to open an issue and I'll try my best to respond.
