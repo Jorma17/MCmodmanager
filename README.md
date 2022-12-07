@@ -1,8 +1,8 @@
 MCmodmanager is a simple shell script for Linux systems that aims to make managing mods easier. This script allows you to have mods sorted by category in a directory.
 For example, you could have a directory called ```~/Documents/mods``` containing the following directories:
-- ```Performance```
-- ```Features```
-- ```Utility```
+- ```./Performance```
+- ```./Features```
+- ```./Utility```
 
 Upon executing the shell script, all the mods in those sub-directories will be copied to the mod folder of your choise
 while removing the old ones (soft linking doesn't work, I've tried)
