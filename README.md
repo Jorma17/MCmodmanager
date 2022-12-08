@@ -21,10 +21,13 @@ Requirements for this to work:
 If you use a launcher which allows for multiple ```.minecraft``` directories (e.g. MultiMC), you probably want to have this separately for each of them.
 Download the script for your launcher of choise (Prism Launcher is recommended) here: https://github.com/Jorma17/MCmodmanager/releases
 
-Then move the shell script somewhere like your ```Documents``` directory:
+Then move the shell script somewhere like your ```Documents``` directory and make it executable:
 - ```cd ~/Downloads```
 - ```mv ./[shell script name].sh ../Documents/```
 - ```chmod +x ../Documents/[shell script name].sh```
+
+Remember to replace `[shell script name]` according to your launcher (e.g. for Multimc it should be `MMMultiMC.sh` instead of `[shell script name].sh`).
+To execute this script, open the terminal and run `~/Documents/[shell script name].sh`
 
 This project is a piece of free software licensed under the GPLv3 license. You can modify this and distribute your modified versions as long as you
 also make the modified source code publicly available.
