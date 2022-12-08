@@ -3,6 +3,7 @@ For example, you could have a directory called ```~/Documents/mods``` containing
 - ```./Performance```
 - ```./Features```
 - ```./Utility```
+
 The mods would be then put inside these sub-directories (in this case, `Performance`, `Features` and `Utility`. You can have as many or as little categories as you want, as long as you only put them on the sub-directories and don't put anything else there or in the `./Documents/mods` directory.
 
 Upon executing the shell script, all the mods in those sub-directories will be copied to the mod folder of your choise
